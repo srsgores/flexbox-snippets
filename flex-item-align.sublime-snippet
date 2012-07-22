@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+flex-item-align: ${1:auto | start | end | center | baseline | stretch};
+-webkit-flex-item-align: ${1:auto | start | end | center | baseline | stretch};
+-moz-flex-item-align: ${1:auto | start | end | center | baseline | stretch};
+-ms-flex-item-align: ${1:auto | start | end | center | baseline | stretch};
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+<tabTrigger>flex-item-align</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+<description> ‘flex-item-align’ allows this default alignment to be overridden for individual flexbox items (for anonymous flexbox items, ‘flex-item-align’ always matches the value of ‘flex-align’ on their associated flexbox).</description>
+</snippet>

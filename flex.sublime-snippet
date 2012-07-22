@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+flex: ${1:[initial | auto | none | positive number]}  ${2:<'flex-grow' (number)>} ${3:<'flex-shrink' (number)>? || <'flex-basis' (positive number | auto)>};
+-webkit-flex: ${1:[initial | auto | none | positive number]}  ${2:<'flex-grow' (number)>} ${3:<'flex-shrink' (number)>? || <'flex-basis' (positive number | auto)>};
+-moz-flex: ${1:[initial | auto | none | positive number]}  ${2:<'flex-grow' (number)>} ${3:<'flex-shrink' (number)>? || <'flex-basis' (positive number | auto)>};
+-ms-flex: ${1:[initial | auto | none | positive number]}  ${2:<'flex-grow' (number)>} ${3:<'flex-shrink' (number)>? || <'flex-basis' (positive number | auto)>};
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+<tabTrigger>flex</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+<description>The ‘flex’ property specifies the components of a flexible length: the flex grow ratio and flex shrink ratio, and the flex basis. When an element is a flex item, ‘flex’ is consulted instead of the main size property to determine the main size of the element. If an element is not a flex item, ‘flex’ has no effect.</description>
+</snippet>

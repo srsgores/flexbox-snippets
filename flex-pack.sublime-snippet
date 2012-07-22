@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+flex-pack: ${1:start | end | center | justify | distribute};
+-webkit-flex-pack: ${1:start | end | center | justify | distribute};
+-moz-flex-pack: ${1:start | end | center | justify | distribute};
+-ms-flex-pack: ${1:start | end | center | justify | distribute};
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+<tabTrigger>flex-pack</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+<description>The ‘flex-pack’ property aligns flexbox items in the main axis of the current line of the flexbox. This is done after any flexible lengths and any auto margins have been resolved. Typically it helps distribute extra free space leftover when either all the flexbox items on a line are inflexible, or are flexible but have reach their maximum size, but it also exerts some control over the alignment of items when they overflow the line.</description>
+</snippet>

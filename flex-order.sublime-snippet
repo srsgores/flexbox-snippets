@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+flex-order: ${1:integer};
+-webkit-flex-order: ${1:integer};
+-moz-flex-order: ${1:integer};
+-ms-flex-order: ${1:integer};
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+<tabTrigger>flex-order</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+<description>The ‘flex-order’ property assigns flexbox items to ordinal groups.
+Ordinal groups control the order in which flexbox items appear. A flexbox will lay out its content starting from the lowest numbered ordinal group and going up. Items with the same ordinal group are laid out in the order they appear in the source document. ‘flex-order’ has no effect on stacking/layering; elements must still be drawn over/under each other based on document order, ‘z-index’, and other relevant means.</description>
+</snippet>

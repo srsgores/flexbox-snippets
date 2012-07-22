@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+flex-line-pack: ${1:start | end | center | justify | distribute | stretch};
+-webkit-flex-line-pack: ${1:start | end | center | justify | distribute | stretch};
+-moz-flex-line-pack: ${1:start | end | center | justify | distribute | stretch};
+-ms-flex-line-pack: ${1:start | end | center | justify | distribute | stretch};
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+<tabTrigger>flex-line-pack</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+<description>The ‘flex-line-pack’ property aligns a flexbox's lines within the flexbox when there is extra space in the cross axis, similar to how ‘flex-pack’ aligns individual items within the main axis.</description>
+</snippet>
